@@ -15,10 +15,18 @@ const opentab = (tabname) => {
 const menu = document.querySelector('.menu');
 const cancel = document.querySelector('.cancel');
 const links = document.querySelector('.links');
+const link = document.querySelectorAll('.link');
 
 menu.addEventListener('click', () => {
   links.style.right = '0';
 });
 cancel.addEventListener('click', () => {
   links.style.right = '-100%';
+});
+
+
+link.forEach((e) => {
+  e.addEventListener('click', () => {
+    links.style.right = '-100%';
+  });
 });
