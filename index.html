@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Code Kelvin</title>
+</head>
+
+<body>
+    <header id="header">
+        <nav>
+            <div class="logo">
+                <span>C</span>ode<span>K</span>elvin
+            </div>
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#portfolio">Projects</a>
+                <a href="#contact">Contact</a>
+                <i class="fa-solid fa-xmark cancel"></i>
+
+            </div>
+            <div class="intouch">
+                <i class="fa-solid fa-phone-volume"></i> +254790809501
+            </div>
+            <i class="fa-solid fa-bars menu"></i>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <!-- HOME -->
+        <div id="home">
+            <div class="home-content">
+                <div class="intro">
+                    I'm <span>Kelvin</span> a FrontEnd Dev,
+                    <br>
+                    Get <span>amazing & mordernized</span> websites
+                    <br>tilored to your vision and style.
+                    <div class="btn">
+                        <button type="button"> <a href="#contact">Contact</a> </button>
+                        <button type="button">Download CV</button>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="./Images/ME1-removebg-preview (1).png" alt="me">
+                </div>
+            </div>
+        </div>
+
+        <!-- ABOUT -->
+
+        <div id="about">
+            <div class="about-content">
+                <div class="about-col-1">
+                    <img src="./Images/ME-removebg-preview (1).png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="h1">About Me</h1>
+                    <p class="me-par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ut delectus
+                        incidunt
+                        dolorum vero
+                        perspiciatis id architecto ea placeat nemo, iusto inventore eius a rem nihil error atque amet.
+                        Minus
+                        sunt voluptatem perspiciatis quos incidunt enim ipsum beatae eaque unde, id libero, facilis iure
+                        ullam error illum animi debitis </p>
+
+                    <div class="tabs">
+                        <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-link" onclick="opentab('experince')">Experince</p>
+                        <p class="tab-link" onclick="opentab('languages')">Languages</p>
+                    </div>
+
+                    <div class="tabs-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>Web Design</span> <br> Designing web Interfaces
+                            </li>
+                            <li>
+                                <span>Web Development</span> <br> Creating modern websites
+                            </li>
+                            <li>
+                                <span>Graphic Designer</span> <br> Designing posters and logos
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tabs-contents" id="experince">
+                        <ul>
+                            <li>
+                                <span>Freelancing</span> <br> Building projects for small businesses and personal
+                                clients
+                            </li>
+                            <li>
+                                <span>Personal Projects</span> <br> Building projects in my portfolio and many more fro
+                                my
+                                practice
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tabs-contents" id="languages">
+                        <ul>
+                            <li>
+                                HTML <br>
+                                CSS <br>
+                                JAVASCRIPT <br>
+                                REACT <br>
+                                TAILWINDCSS <br>
+                                BOOTSRAP <br>
+                            </li>
+
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+            <div id="services">
+                <div class="service-content">
+                    <h1 class="h1">My Services</h1>
+                    <div class="service-list">
+                        <div>
+                            <h2>Web Design</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dignissimos nostrum
+                                dolor
+                                consequuntur iste ad non culpa quisquam deleniti voluptatibus!</p>
+                            <a href="#">Learn more</a>
+                        </div>
+                        <div>
+                            <h2>Web Development</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dignissimos nostrum
+                                dolor
+                                consequuntur iste ad non culpa quisquam deleniti voluptatibus!</p>
+                            <a href="#">Learn more</a>
+                        </div>
+                        <div>
+                            <h2>Graphic design</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dignissimos nostrum
+                                dolor
+                                consequuntur iste ad non culpa quisquam deleniti voluptatibus!</p>
+                            <a href="#">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- My work  -->
+
+        <div id="portfolio">
+            <div class="portfolio-content">
+                <h1 class="h1">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="./Images/amazing 1.jpeg" width="300px" height="400px">
+                        <div class="layer">
+                            <h3>My Project</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab a id quisquam! Aspernatur
+                                ipsam
+                                debitis qui unde nobis eius obcaecati?</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="./Images/amazing 2.jpeg" width="300px" height="400px">
+                        <div class="layer">
+                            <h3>My Project</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab a id quisquam! Aspernatur
+                                ipsam
+                                debitis qui unde nobis eius obcaecati?</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="./Images/amazing 3.jpeg" width="300px" height="400px">
+                        <div class="layer">
+                            <h3>My Project</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab a id quisquam! Aspernatur
+                                ipsam
+                                debitis qui unde nobis eius obcaecati?</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="learn">
+                    <button type="button">Learn more</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- --------Contact--------- -->
+
+        <div id="contact">
+            <div class="contact-content">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="h1">Get In Touch</h1>
+                        <i class="fa-solid fa-envelope"></i> kevomajor@gmail.com</p>
+                        <i class="fa-solid fa-phone"></i> 0790809501</p>
+                        <div class="media-icons">
+                            <i class="fa-brands fa-square-facebook"></i>
+                            <i class="fa-brands fa-square-github"></i>
+                            <i class="fa-brands fa-square-whatsapp"></i>
+                        </div>
+                        <a class="download" href="#">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button class="submit" type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copywright">
+        <p>Copywright @Kelvin portfolio</p>
+    </div>
+
+</body>
+<script src="script.js"></script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw6AsPwvhF9kTfof6coTVlVsXqjMP7GHrkjWoEuXfydJrpV9ql0VFTXvDvIts29x0zVQw/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+</html>
