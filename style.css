@@ -25,7 +25,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 10px 5px;
+  padding: 20px 5px;
 }
 
 .logo {
@@ -512,6 +512,7 @@ form textarea {
 @media (max-width: 600px) {
   nav {
     position: relative;
+    padding: 20px 0;
   }
   .menu,
   .cancel {
